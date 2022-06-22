@@ -22,8 +22,8 @@ body{
 
 img{
     margin-top: 35px;
-    width: 200px ;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
 }
 
@@ -41,7 +41,6 @@ img{
 p{
     color: #777777;
     padding-top: 3px;
-    font-style: italic;
 }
 
 .connect{
@@ -49,6 +48,7 @@ p{
     width: 100%;
     margin-top: 15px;
 }
+
 .button {
     background-color: #222222;
     border: none;
@@ -96,6 +96,10 @@ p{
 }
 
 @media (max-width: 768px) {
+    html,body{
+        overflow-x: hidden;
+    }
+
     .button {
         background-color: #222222;
         border: none;
